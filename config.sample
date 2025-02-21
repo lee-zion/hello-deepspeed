@@ -1,0 +1,23 @@
+Host node1
+    User root  
+    IdentityFile ~/.ssh/sshkey.pem  
+    Port 31316  
+    HostName 10.28.224.198    
+
+Host node2
+    User root  
+    IdentityFile ~/.ssh/sshkey.pem  
+    Port 31899  
+    HostName 10.28.224.144  
+
+Host node3
+    User root  
+    IdentityFile ~/.ssh/sshkey.pem  
+    Port 32213  
+    HostName 10.28.224.19
+
+Host node4
+    User root  
+    IdentityFile ~/.ssh/sshkey.pem  
+    Port 32750  
+    HostName 10.28.224.116
